@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="icon" href="tic-tac-toe-icon.svg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1 id="head-title">Tic-Tac-Toe</h1>
+        <div id="choose-sign">
+            <h2>Choose Sign</h2>
+            <button class="cross"></button>
+            <button class="circle"></button>
+        </div>
+        <div class="board">
+            <div>
+                <h2>Board</h2>
+                <h3 id="turn"></h3>
+                <div id="board">
+                    <button t-cell="0"></button>
+                    <button t-cell="1"></button>
+                    <button t-cell="2"></button>
+                    <button t-cell="3"></button>
+                    <button t-cell="4"></button>
+                    <button t-cell="5"></button>
+                    <button t-cell="6"></button>
+                    <button t-cell="7"></button>
+                    <button t-cell="8"></button>
+                </div>
+            </div>
+            <div id="decision-container">
+                <a class="play decision">Play</a>
+                <a class="quit decision">Quit</a>
+            </div>
+        </div>
+        <footer>
+            <h4>&copy;<a target="_blank" href="https://lakshaygoyal-lg.github.io/capstone-v1/">Lakshay Goyal</a>.</h4>
+            <h4>&reg;All Rights Reserved</h4>
+        </footer>
+    </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js" charset="UTF-8"></script>    
+</body>
+</html>
